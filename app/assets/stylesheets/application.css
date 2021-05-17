@@ -13,3 +13,174 @@
  *= require_tree .
  *= require_self
  */
+ *{
+   padding: 0;
+   margin: 0;
+   border: 0;
+ }
+
+ *,*:before,*:after{
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+
+ :focus, :active{outline: none;}
+ a:focus, a:active{outline: none;}
+
+ nav,footer,header,aside{display: block;}
+
+ html,body{
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-abjust: 100%;
+   -moz-text-size-abjust: 100%;
+   -webkit-text-size-adjust: 100%;
+ }
+
+ input,button,textarea{font-family:inherit;}
+
+ input::-ms-clear{display: none;}
+ button{cursor: pointer;}
+ button::-moz-focus-inner {padding:0;border:0;}
+ a, a:visited{text-decoration: none;}
+ a:hover{text-decoration: none;}
+ ul li{list-style: none;}
+ img{vertical-align: top;}
+
+ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+body{
+  background-color: tomato;
+  padding-left: 30%;
+}
+
+h1{
+  font-size: 80px;
+  color: red;
+  border: 10px solid #000;
+  margin: 40px;
+  width: 500px;
+  padding: 20px;
+  background-color: goldenrod;
+}
+
+.start a{
+
+  font-size: 15px;
+  color: chartreuse;
+  border: 5px solid;
+  width: 100px;
+  border-radius: 50%;
+  padding: 2px;
+  border-color: black;
+  background-color: indigo;
+  margin: 0px;
+
+  font-size: 50px;
+  color: chartreuse;
+  border: 5px solid;
+  width: 100px;
+  border-radius: 50%;
+  padding: 8px;
+  border-color: black;
+  background-color: indigo;
+  margin-left: 210px;
+  border-width: 8px;
+  
+  
+}
+
+
+
+p{
+  padding: 0px;
+}
+
+.wrapper{
+  font-size: 20px;
+}
+
+.titleshow{
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+
+.textshow{
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.commentsshow{
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.addshow{
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.commenter{
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.comment{
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.show{
+  font-size: 20px;
+}
+
+a{
+  font-size: 15px;
+  color: chartreuse;
+  border: 5px solid;
+  width: 100px;
+  border-radius: 50%;
+  padding: 2px;
+  border-color: black;
+  background-color: indigo;
+  margin: 0px;
+}
+
+.title{
+  padding: 10px;
+}
+
+.show a{
+  margin-left: 0px;
+}
+
+.newar a{
+  font-size: 30px;
+  margin-left: 200px;
+  border-width: 5px;
+  padding: 10px;
+}
+
+.detcom a{
+  
+  font-size: 20px;
+  color: aqua;
+  border: 0px;
+  width: 100px;
+  border-radius: 0%;
+  padding: 0px;
+  border-color: black;
+  background-color: tomato;
+  margin: 0px;
+
+}
+
+
+
+
+
+
